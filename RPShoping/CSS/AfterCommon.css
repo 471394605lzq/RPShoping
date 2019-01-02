@@ -1,0 +1,258 @@
+﻿/*全局公用样式开始*/
+.input_text {
+    height:30px;
+    width:200px;
+    border:1px solid #e8e8e8;
+    text-indent:1em;
+    line-height:30px;
+    font-size:14px;
+    color:#666666;
+}
+.input_area {
+    width: 80%;
+    margin: 0 auto;
+    height: 100px;
+    text-indent:1em;
+    line-height:15px;
+    display:block;
+}
+.input_radio,.radio_lable {
+    margin-top:10px;
+    float:left;
+}
+.radio_radio_right {
+    margin-left:30px;
+}
+.bottom_line {
+    border-bottom:1px solid #e8e8e8;
+}
+.input_botton {
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #438eb9;
+}
+a{ text-decoration:none} 
+/*全局公用样式结束*/
+/*编辑页面公用样式开始*/
+ .datatb_all {
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+        }
+            .datatb_all .datatb_all_mide {
+                width: 100%;
+                height: auto;
+                min-height: 800px;
+                border: 1px solid #e8e8e8;
+            }
+                .datatb_all .datatb_all_mide .datatb_top {
+                    width: 100%;
+                    height: 50px;
+                    border-bottom: 1px solid #e8e8e8;
+                }
+                    .datatb_all .datatb_all_mide .datatb_top .top_back {
+                        display: block;
+                        width: 50px;
+                        height: 50px;
+                        line-height: 55px;
+                        padding-left: 15px;
+                        cursor: pointer;
+                        float: left;
+                    }
+                    .datatb_all .datatb_all_mide .datatb_top .top_title {
+                        display: block;
+                        width: 200px;
+                        height: 50px;
+                        line-height: 50px;
+                        font-size: 14px;
+                        color: #666666;
+                        text-indent:2em;
+                        float:left;
+                        font-weight:700;
+                    }
+        .datatb {
+            width: 100%;
+            height: auto;
+        }
+            .datatb ul {
+                width: 80%;
+                height: auto;
+                min-height: 650px;
+                list-style: none;
+            }
+                .datatb ul li {
+                    float:left;
+                    width:25%;
+                    height:30px;
+                    border:none;
+                    margin-top:25px;
+                }
+                .datatb ul .lileft {
+                    width:15%;
+                    min-width:120px;
+                    height:30px;
+                    font-size:14px;
+                }
+                .datatb ul .liright {
+                    width:30%;
+                    min-width:180px;
+                    height:30px;
+                    line-height:30px;
+                }
+                    .datatb ul li .titlename {
+                        height:30px;
+                        line-height:30px;
+                        display:block;
+                        float:right;
+                    }
+                    .datatb ul li .inputlb {
+                        text-indent:1em;
+                        border:1px solid #e8e8e8;
+                        float:left;
+                        width:80%;
+                        min-width:150px;
+                        height:30px;
+                        line-height:30px;
+                    }
+                .datatb ul li .requiredstr {
+                    display:block;
+                    float:right;
+                    color:red;
+                    height:30px;
+                    line-height:30px;
+                    margin-right:5px;
+                }
+        .editbottom {
+            width: 100%;
+            height: 50px;
+            border-top: 1px solid #e8e8e8;
+        }
+            .editbottom .btn_div {
+                width: 300px;
+                height: 30px;
+                margin-top: 10px;
+                float: right;
+            }
+                .editbottom .btn_div .edit_btn {
+                    width: 80px;
+                    height: 30px;
+                    cursor: pointer;
+                    border: 1px solid #e8e8e8;
+                    text-align: center;
+                    line-height: 20px;
+                    border-radius: 5px;
+                    color: #ffffff;
+                    background-color: #438eb9;
+                }
+.datatb ul .commline {
+    width: 100%;
+    height: 5px;
+    margin: 0;
+}
+.datatb ul  .commline .commlinespan {
+        width: 80%;
+        border-bottom: 1px dashed #e8e8e8;
+        display: block;
+        margin: 0 auto;
+    }
+.datatb ul .commreamrktext {
+    width: 100%;
+    margin: 10px;
+}
+.datatb ul .commremark {
+    text-align: right;
+    width: 15%;
+    margin-right: 85%;
+    float: left;
+}
+.datatb ul .allwidth {
+    width:100%;
+}
+/*编辑页面公用样式结束*/
+
+/*弹出层公共样式开始*/
+.showdiv {
+    width: 800px;
+    height: 500px;
+    border: 2px solid #438eb9;
+    position: absolute;
+    background-color: #ffffff;
+    margin-left: 15%;
+    margin-top: 1%;
+    display: none;
+}
+    .showdiv .showdiv_topall {
+        width: 100%;
+        height: 50px;
+        border-bottom: 1px solid #e8e8e8;
+    }
+        .showdiv .showdiv_topall .showdiv_toptitle {
+            font-size: 18px;
+            color: #666666;
+            font-weight: 700;
+            width: 200px;
+            height: 50px;
+            float: left;
+            line-height: 50px;
+            text-align: left;
+            text-indent: 2em;
+        }
+.showul_div {
+    height: 470px;
+    width: 90%;
+    margin: 0 auto;
+}
+    .showul_div ul {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+        .showul_div ul li {
+            width: 100%;
+            min-height:30px;
+            margin-top:15px;
+        }
+            .showul_div ul li .s_left {
+                width: 15%;
+                float: left;
+                height: 30px;
+                line-height: 30px;
+                display:block;
+                text-align:right;
+            }
+            .showul_div ul li .s_right {
+                width: 30%;
+                height: 30px;
+                float: left;
+            }
+                .showul_div ul li .s_right .showdivrequiredstr {
+                    display:block;
+                    float:right;
+                    color:red;
+                    height:30px;
+                    line-height:30px;
+                    margin-left:5px;
+                }
+.showdov_bottom {
+    width: 100%;
+    height: 80px;
+    border-top: 1px solid #e8e8e8;
+    position: absolute;
+    bottom: 0px;
+}
+    .showdov_bottom .showdiv_bottom_right {
+        width: 250px;
+        height: 40px;
+        margin-top: 20px;
+        float: right;
+    }
+/**/

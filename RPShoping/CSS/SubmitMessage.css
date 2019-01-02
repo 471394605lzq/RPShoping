@@ -1,0 +1,225 @@
+﻿body
+{
+}
+
+ul
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: #b2b2b2;
+}
+
+#Xia
+{
+    height: 32px;
+    margin-right: 11px;
+    font-size: 17px;
+    font-family: 黑体;
+    outline: none;
+}
+
+.AB
+{
+    font-family: 黑体;
+}
+
+div
+{
+    display: block;
+}
+
+ul li a
+{
+    padding-left: 23px;
+}
+
+.msg_sender
+{
+    width: 62%;
+    border: 1px solid #e7e7eb;
+    margin-top: 24px;
+}
+
+    .msg_sender .tab_navs
+    {
+        background-color: #fff;
+        line-height: 38px;
+        height: 38px;
+    }
+
+.tab_panel
+{
+    background-color: #fff;
+    min-height: 216px;
+}
+
+.tab_content
+{
+    border-top: 1px solid #E7E7EB;
+    padding: 35px 30px 0;
+}
+
+    .tab_content .inner
+    {
+        border: 1px solid #c6c6c6;
+        border-radius: 3px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        padding: 14px 20px;
+    }
+
+.msg_sender .tab_content .inner
+{
+    border-width: 0;
+}
+
+.tab_cont_cover
+{
+    margin-top: -29px;
+}
+
+    .tab_cont_cover .media_cover
+    {
+        width: 48%;
+        margin-right: 2%;
+        float: left;
+    }
+
+.media_cover
+{
+    overflow: hidden;
+}
+
+.tab_cont_cover .create_access
+{
+    padding: 52px 0;
+    margin-bottom: 0;
+    line-height: normal;
+    position: relative;
+}
+
+.create_access
+{
+    display: block;
+    margin-top: 26px;
+    border: 2px dotted #d9dadc;
+    line-height: 80px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+    .create_access a
+    {
+        display: block;
+        vertical-align: middle;
+        margin-left: 10px;
+        margin-right: 10px;
+        color: #8d8d8d;
+        font-size: 14px;
+        line-height: normal;
+    }
+
+.tab_cont_cover .media_cover
+{
+    width: 48%;
+    margin-right: 2%;
+    float: left;
+}
+
+.media_cover
+{
+    overflow: hidden;
+}
+
+.tab_cont_cover .create_access
+{
+    padding: 54px 0;
+    margin-bottom: 0;
+    line-height: normal;
+    position: relative;
+}
+
+.create_access a
+{
+    display: block;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #8d8d8d;
+    font-size: 14px;
+    line-height: normal;
+}
+
+    .create_access a strong
+    {
+        display: block;
+        padding-top: 3px;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+.sub
+{
+    margin-top: 40px;
+    margin-left: 38px;
+    width: 7%;
+    height: 34px;
+    background-color: #2F9833;
+    border-radius: 7px;
+    font-size: 15px;
+    font-family: 黑体;
+    color: #fff;
+    border: 0px;
+    outline: 0;
+}
+
+.tex
+{
+    display: none;
+    width: 100%;
+    height: 173.99px;
+    resize: none;
+    outline: none;
+    font-family: 黑体;
+    font-size: 30px;
+    border-bottom: 1px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.editor_toolbar
+{
+    display: none;
+    padding: 0 20px;
+    line-height: 36px;
+    background-color: #fff;
+    border-top: 1px solid #e7e7eb;
+    height: 39px;
+}
+
+.editor_tip
+{
+    margin-top: 3px;
+    float: right;
+    color: #8d8d8d;
+}
+#fileImage
+{
+    display:none;
+}
+
+.black
+{
+    color:#000000;
+}
+span
+{
+    font-family: 黑体;
+}

@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPShoping", "RPShoping\RPShoping.csproj", "{BA05C081-EBDD-4C16-A8AA-4182B5C083DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{4427CA77-A1A9-416E-8C55-F9120A21E05A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session_Manager", "Session_Manager\Session_Manager.csproj", "{E7883BAE-61AC-48E5-B1C6-26969062D500}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicLibrary", "PublicLibrary\PublicLibrary.csproj", "{DB7094E5-4209-408B-A9E7-B2B7E522495C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{B5317A87-F3A3-4BDA-8183-B36EFE9710CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AopSdk", "alipay-sdk-NET-3.0.0\AopSdk.csproj", "{9C11CAE5-5188-4E71-825B-68FC3135728A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA05C081-EBDD-4C16-A8AA-4182B5C083DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA05C081-EBDD-4C16-A8AA-4182B5C083DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA05C081-EBDD-4C16-A8AA-4182B5C083DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA05C081-EBDD-4C16-A8AA-4182B5C083DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4427CA77-A1A9-416E-8C55-F9120A21E05A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4427CA77-A1A9-416E-8C55-F9120A21E05A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4427CA77-A1A9-416E-8C55-F9120A21E05A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4427CA77-A1A9-416E-8C55-F9120A21E05A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7883BAE-61AC-48E5-B1C6-26969062D500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7883BAE-61AC-48E5-B1C6-26969062D500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7883BAE-61AC-48E5-B1C6-26969062D500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7883BAE-61AC-48E5-B1C6-26969062D500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB7094E5-4209-408B-A9E7-B2B7E522495C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB7094E5-4209-408B-A9E7-B2B7E522495C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB7094E5-4209-408B-A9E7-B2B7E522495C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB7094E5-4209-408B-A9E7-B2B7E522495C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5317A87-F3A3-4BDA-8183-B36EFE9710CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5317A87-F3A3-4BDA-8183-B36EFE9710CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5317A87-F3A3-4BDA-8183-B36EFE9710CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5317A87-F3A3-4BDA-8183-B36EFE9710CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C11CAE5-5188-4E71-825B-68FC3135728A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C11CAE5-5188-4E71-825B-68FC3135728A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C11CAE5-5188-4E71-825B-68FC3135728A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C11CAE5-5188-4E71-825B-68FC3135728A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
