@@ -20,6 +20,7 @@ $("#back").click(function () {
 $("#save").click(function () {
     var saveappkey = getshaappkey();
     var keyword = $("#keyword").val();
+    var istop = $('input[name="istop"]:checked').val();
     if (name != "" && name != null && name != undefined) {
         $.ajax({
             url: "https://d.apicloud.com/mcm/api/tb_HotSearch/" + _id,
@@ -31,6 +32,7 @@ $("#save").click(function () {
             },
             "data": {
                 "HS_Keyword": keyword,
+                "istop":istop,
                 "_method": "PUT"
             },
             dataType: "json",
@@ -54,6 +56,7 @@ $("#save").click(function () {
 //清空控件值
 function empetclt() {
     $("#keyword").val("");
+    $("input[name=istop]:eq('否')").attr("checked", 'checked');
 }
 //编辑加载方法
 function load() {
@@ -70,6 +73,7 @@ function load() {
         dataType: "json",
         success: function (data, status, header) {
             $("#keyword").val(data.HS_Keyword);
+            $("input[name='istop'][value='" + data.istop + "']").attr("checked", true);
         },
         error: function (data, status, header) {
 

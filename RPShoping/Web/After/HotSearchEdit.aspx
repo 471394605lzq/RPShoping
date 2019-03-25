@@ -40,6 +40,14 @@
                     <li class="liright">
                         <input type="text" class="inputlb" id="keyword" value="" />
                     </li>
+
+                    <li class="lileft">
+                        <span class="titlename">是否推荐：</span><span class="requiredstr">*</span>
+                    </li>
+                    <li class="liright">
+                        <input id="istop1" type="radio" checked="checked" name="istop" value="否" /><label for="mb_female">否</label>
+                        <input id="istop2" type="radio" name="istop" value="是" /><label for="mb_male">是</label>
+                    </li>
                 </ul>
             </div>
             <div class="editbottom">

@@ -12,6 +12,7 @@
                 var tempdata = JSON.stringify(data);
                 tempdata = tempdata.substring(1, tempdata.length - 1);
                 var t = JSON.parse("[" + tempdata + "]");
+                alert(JSON.stringify(t));
                 //var resultdata = JSON.parse(tempdata);
                 //var t2 = "[" + tempdata + "]";
                 //console.log(JSON.parse(t2));
@@ -20,10 +21,11 @@
                 $("#list5").jqGrid({
                     datatype: "local",
                     data: t,
-                    colNames: ['序号', '关键词'],
+                    colNames: ['序号', '关键词','是否推荐'],
                     colModel: [
                         { name: 'id', index: 'id', width: 55, align: "center", hidden: true },
-                        { name: 'HS_Keyword', index: 'PA_Name', width: 120, align: "center" }
+                        { name: 'HS_Keyword', index: 'HS_Keyword', width: 120, align: "center" },
+                        { name: 'istop', index: 'istop', width: 120, align: "center" }
                     ],
                     page: 1,
                     rowNum: 30,
